@@ -19,7 +19,5 @@ public class Address {
     private String state;
     private String zipCode;
 
-    @OneToOne(mappedBy = "address")
-    private User user;
 }
 
